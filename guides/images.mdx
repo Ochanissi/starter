@@ -1,0 +1,59 @@
+---
+title: Image Resolution Test
+---
+
+# Image src test scenarios
+
+## E — Project-root absolute (`/public/...`)
+Same convention as `faviconURL` / `publicLogoURL`. File lives in `public/` at the repo root.
+
+![Logo dark](/public/logo-dark.png)
+
+## A — Doc-relative, bare filename
+File sits right next to this `.mdx` file.
+
+![Sibling image](coca-cola-logo.png)
+
+## B — Doc-relative, nested folder
+File in a subfolder next to this doc.
+
+![Nested image](images/document-blank.svg)
+
+## C — docsPath-root absolute  ← the client's case
+Leading `/`, file lives under your `docsPath` (e.g. `docs/files/...`).
+
+![Docs-root image](/files/chevron-right.svg)
+
+## D — docsPath-relative, bare (doc at docsPath root)
+Only meaningful when the doc itself is at the top of `docsPath`.
+
+![Docs-relative image](files/approval-policy.svg)
+
+## Already-handled (control cases — should already work)
+
+External URL (left untouched):
+
+![External](https://images.archbee.com/bNBm7nPJgXjbjLyfbHNh2/n2qr6fR-UoEp3M5SsakwT-20260330-143019.png?format=webp)
+
+Protocol-relative (left untouched):
+
+![Protocol-relative](//images.archbee.com/bNBm7nPJgXjbjLyfbHNh2/n2qr6fR-UoEp3M5SsakwT-20260330-143019.png?format=webp)
+
+
+
+
+
+
+## Image src test scenarios
+
+The convention is `/public/...` — same as `faviconURL` and `publicLogoURL`
+in `archbee.json`. Files live under the project's `public/` directory.
+
+### 1. Root-relative `/public/...` path
+
+![Logo dark](/public/logo-dark.png)
+
+
+![Logo dark](/mrrrr.png)
+
+

@@ -34,6 +34,7 @@
         "categoryName": "Getting Started",
         "children": [
           { "path": "index.mdx" },
+          { "path": "images.mdx" },
           { "path": "quickstart.mdx" },
           { "path": "development.mdx" }
         ]
