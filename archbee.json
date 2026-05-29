@@ -5,12 +5,19 @@
   "contentLayout": "two-column",
   "publicTheme": "light",
 
-  "faviconURL": "/public/favicon.ico",
-  "publicLogoURL": "/public/logo-light.png",
-  "darkPublicLogoURL": "/public/logo-dark.png",
+  "faviconURL": "/files/favicon.ico",
+  "publicLogoURL": "/files/coca-cola-logo.png",
+  "darkPublicLogoURL": "/files/coca-cola-logo.png",
 
-  "hostingColor": "#2166AE",
-  "darkHostingColor": "#2166AE",
+  "hostingColor": "#F97316",
+  "darkHostingColor": "#FB923C",
+  "secondaryColor": "#DB2777",
+  "darkSecondaryColor": "#F472B6",
+
+  "logoRedirectURL": "https://archbee.com",
+  "hostingTitle": "Archbee Docs Starter",
+  "customFont": "Roboto",
+  "custom404": "<h1>Page not found</h1><p>Sorry, this page does not exist.</p>",
 
   "showReadTime": true,
   "showLastUpdate": true,
@@ -19,6 +26,8 @@
   "hasPrimaryColorLinks": true,
   "isArchbeeBrandVisible": true,
   "isPublicBackgroundEnabled": true,
+  "showFullTitleInLeftNavDocsTree": true,
+  "showEditInGitApp": true,
 
   "docsPath": "guides",
   "structure": {
